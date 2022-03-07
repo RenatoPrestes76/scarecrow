@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+}
+#container {
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    background: #ffffff;
+  
+}
+@media (max-width: 1000px){
+    #container{
+        flex-direction: column;
+    }  
+}
+#left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+@media (max-width: 1000px){
+    #left{
+        width: 100%;
+    }  
+}
+#right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+   
+}
+@media (max-width: 1000px){
+    #right{
+        width: 100%;
+    }  
+}
+#img-scarecrouw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#img {
+    display: flex;
+    width: auto;
+    height: 300px;
+}
+@media (max-width: 1000px){
+    #img{
+        height: 250px;
+        padding-top: 20%;
+    }  
+}
+#text404 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin-left: 3%;
+    margin-top: 2%;
+    color: #333333;
+    font-weight: bold;
+}
+
+#have {
+    font-size: 1.5em;
+    width: 90%;
+}
+@media (max-width: 1000px){
+    #have{
+        width: 100%;
+    }  
+}
+#page {
+    width: 53%;
+    margin: 7% 0;
+    
+}
+@media (max-width: 1000px){
+    #page{
+        width: 70%;
+    } 
+} 
+button {
+    width: 40%;
+    background: #333333;
+    border-style: none;
+    color: white;
+    font-size: 0.875em;
+    padding: 3%;
+}
+@media (max-width: 1000px){
+    button{
+        width: 50%;
+    } 
+} 
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+#footer p{
+    font-weight: 500;
+    font-size: 0.875em;
+    color: #BDBDBD;
+}
